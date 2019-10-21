@@ -3,6 +3,10 @@
 Dependencies for JUnit5 kan ses i pom.xml
 
 De vigtige for JUnit5 er
+* junit-jupiter-api som gør det muligt at skrive tests
+* junit-jupiter-engine som kører unit tests
+* maven-surefire-plugin som gør det muligt for Maven at finde og køre unit tests
+
 ```
 <dependencies>
     <dependency>
